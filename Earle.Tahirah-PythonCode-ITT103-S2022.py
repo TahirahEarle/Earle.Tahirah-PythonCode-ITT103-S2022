@@ -106,6 +106,5 @@ label2=Label(root,text='The end, the program has been terminate \n \n \n THANK F
 label2.grid(row=2, column=0, padx=5, pady=10) 
 button1=Button(root, text="Click here to leave", command=root.destroy, bg='red',fg='white',font=('Cambria', 12)).grid(column=3, row=8)
 root.mainloop()
-
+# Display exiting statement on the main screen.
 print("The end, the program has been terminate")                  
-
