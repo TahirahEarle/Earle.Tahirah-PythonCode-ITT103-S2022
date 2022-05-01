@@ -73,7 +73,7 @@ while True:
     commission=class_commisssion(rate, sale_amount) 
     print("The commission is $", '%.2f'%commission)
     print('─' * 91) 
-  elif sale_class == 3 and sale_amount < 0: 
+  elif sale_class == 3 and sale_amount > 0: 
     rate=0.045
     commission=class_commisssion(rate, sale_amount) 
     print("The commission is $", '%.2f'%commission)
